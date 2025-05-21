@@ -1,6 +1,6 @@
 class abc{
     abc(){//constructor
-        System.out.println("Constructor body");
+        System.out.println("Constructor Body");
     }
 }
 public class Constructor {
