@@ -10,10 +10,20 @@ class calci{//one class with multiple methods
         System.out.println((a*b));
     }
     public void division (int a, int b){
-        System.out.println((a/b));
+        if(b!=0){
+            System.out.println(a/b);
+        }
+        else{
+            System.out.println("Denominator cannot be zero");
+        }
     }
     public void modulo (int a, int b){
-        System.out.println((a%b));
+        if (b != 0) {
+            System.out.println((a%b));
+        }
+        else{
+            System.out.println(("Undefined"));
+        }
     }
 }
 
