@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class calci{// one class with multiple methods
+class calci{//one class with multiple methods
     public void addition (int a, int b){
         System.out.println((a+b));
     }
