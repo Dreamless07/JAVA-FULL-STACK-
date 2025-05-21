@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class calci{
+class calci{// one class with multiple methods
     public void addition (int a, int b){
         System.out.println((a+b));
     }
@@ -29,8 +29,5 @@ public class Calculator {
         obj.multiplication(a,b);
         obj.division(a,b);
         obj.modulo(a,b);
-
-
-
     }
 }
