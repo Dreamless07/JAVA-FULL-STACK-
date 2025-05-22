@@ -1,5 +1,5 @@
 class noaccess {//class
-    private int num = 10;
+    private int number = 10;
     private void display() {//method
         System.out.println("accessed the method from another method");
     }
