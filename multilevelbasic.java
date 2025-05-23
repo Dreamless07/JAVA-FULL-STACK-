@@ -11,7 +11,6 @@ class B extends A{//derived child class from A
         System.out.println("New feature");
     }
 }
-
 class C extends B{//derived child class from B
     void show(){//method
         System.out.println("Derived from both A and B");
