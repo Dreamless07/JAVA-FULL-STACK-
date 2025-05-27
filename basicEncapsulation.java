@@ -4,7 +4,7 @@ class aboutperson {//class
     private int age = 22;//private variables
 
     public String getName() {
-        return name;//to access private vars we use get() method /can also use a public method(performing encapsulation)
+        return name;//to access private var we use get() method /can also use a public method(performing encapsulation)
     }
 
     public void setName(String name1) {
