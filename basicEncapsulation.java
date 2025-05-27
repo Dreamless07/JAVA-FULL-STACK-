@@ -8,7 +8,7 @@ class aboutperson {//class
     }
 
     public void setName(String name1) {
-        this.name = name1;//to set a different value to the var we use set() method
+        this.name = name1;//to set different value to the var we use set() method
     }
 
     public int getAge() {
