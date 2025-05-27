@@ -10,7 +10,7 @@ class Animal{//parent class
     }
 }
 
-class Dog extends Animal{//child class
+class Dog extends Animal {//child class
     String name;//extra feature
     Dog(String color, String type, String name){
         super(color, type);//super keyword for inheriting already present features
