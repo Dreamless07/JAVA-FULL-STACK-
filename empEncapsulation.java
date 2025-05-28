@@ -6,7 +6,7 @@ class empDetails{
         return emp_name;//get the value by get() method
     }
     public void setEmp_name(String emp_name1) {
-        this.emp_name = emp_name1;//to set different value to the var we use set() method
+        this.emp_name = emp_name1;//to set different value to var we use set() method
     }
     public int getEmp_id () {
         return emp_id;
