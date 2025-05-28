@@ -3,7 +3,7 @@ class empDetails{
     private int emp_id = 1024;//private variables
     private int emp_salary = 50000;
     public String getEmp_name() {
-        return emp_name;//get the value by get() method
+        return emp_name;//get value by get() method
     }
     public void setEmp_name(String emp_name1) {
         this.emp_name = emp_name1;//to set different value to var we use set() method
