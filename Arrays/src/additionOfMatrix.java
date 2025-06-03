@@ -38,3 +38,39 @@ public class additionOfMatrix {
         }
     }
 }
+/*
+                                    OPTIMIZED CODE WITH 2 NESTED LOOPS
+import java.util.Scanner;
+
+public class AdditionOfMatrix {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of rows and columns:");
+        int row = sc.nextInt();
+        int col = sc.nextInt();
+
+        int[][] matrix1 = new int[row][col];
+        int[][] matrix2 = new int[row][col];
+        int[][] result  = new int[row][col];
+
+        // Input for both matrices and addition in one go
+        System.out.println("Enter elements for Matrix 1:");
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                matrix1[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("Enter elements for Matrix 2 and get sum:");
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                matrix2[i][j] = sc.nextInt();
+                result[i][j] = matrix1[i][j] + matrix2[i][j];
+                System.out.print(result[i][j] + " "); // print sum directly
+            }
+            System.out.println(); // new line after each row
+        }
+    }
+}
+ */
