@@ -8,7 +8,7 @@ public class deleteFile {
                 System.out.println("File deleted");
             }
             else{
-                System.out.println("Unable to delete");
+                System.out.println("Unable to delete the file");
             }
         }
         else {
