@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;//inbuilt libraries
-public class listwithArrayList {
+public class listWithArrayList {
     public static void main(String[] args) {
         List<Integer> newList= new ArrayList<>();//list object with inbuilt class
         newList.add(10);
