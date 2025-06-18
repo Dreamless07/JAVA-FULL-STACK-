@@ -7,7 +7,7 @@ public class basicQueue {
         newQ.offer("Jack");
         newQ.offer("Raze");
         System.out.println(newQ);
-        newQ.peek();//read data
+        System.out.println(newQ.peek());//read first element
         System.out.println(newQ);
         newQ.poll();//remove first element
         System.out.println(newQ);
