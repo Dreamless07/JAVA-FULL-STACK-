@@ -11,5 +11,12 @@ public class basicQueue {
         System.out.println(newQ);
         newQ.poll();//remove first element
         System.out.println(newQ);
+        newQ.add("justin");
+        System.out.println(newQ);
+        System.out.println(newQ.contains("Jack"));
+        newQ.remove("Raze");
+        System.out.println(newQ);
+        newQ.clear();
+        System.out.println(newQ);
     }
 }
