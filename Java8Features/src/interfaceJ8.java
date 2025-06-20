@@ -19,7 +19,7 @@ public class interfaceJ8 {
 
 interface newInter {//interface
     static void newMeth() {//method using static we can define it in interface itself
-        System.out.println("We can use method body in Interface by using Default keyword in Java 8");
+        System.out.println("We can use method body in Interface by using Static keyword in Java 8");
     }
 }
 class newClass implements newInter {//class
