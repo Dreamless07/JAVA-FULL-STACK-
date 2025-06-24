@@ -9,8 +9,6 @@ class example1 implements Consumer<Integer>{//Consumer is a Functional Interface
         System.out.println(i);                                                      // while using normal class definition
     }
 }
-
-
 */
 public class functionalInterface {
     public static void main(String[] args) {
