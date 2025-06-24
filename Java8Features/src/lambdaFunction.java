@@ -3,7 +3,7 @@ interface AB{
 }
 public class lambdaFunction {
     public static void main(String[] args) {
-        AB ob=() -> System.out.println("Hello");//no need to write anonymous class and object instead just use lambda class
+        AB ob=() -> System.out.println("Hello");//no need to write anonymous class and object instead just use lambda function
         ob.classA();//directly take interface name and then directly call that class through object
     }
 }
