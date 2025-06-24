@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;//for map only when using without lambda
 import java.util.function.Predicate;//for filter only when using without lambda
+import java.util.function.Function;//for map only when using without lambda
 import java.util.function.BinaryOperator;//for reduce only when using without lambda
 public class streamApi {
     public static void main(String[] args) {
