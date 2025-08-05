@@ -1,5 +1,3 @@
-# JAVA-FULL-STACK
-This repo is for Java Full stack practice from scratch, have included comments in some programs where required.
 # ☕ Java Core Concepts – Learning Repository
 
 This repository is a collection of **Java core concept programs and practice exercises** created during hands-on training. It is organized to help reinforce OOP principles, multithreading, collections, exception handling, Java 8 features, and more.
